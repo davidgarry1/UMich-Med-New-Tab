@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    top: -20px;
+    left: 17px;
+    margin: 10px;
+    width: 220px;
+    height: auto;
+}
+
+.clock {
+    display: block;
+}
+
+.center {
+    width: 580px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.message {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.top-panel {
+    background-color: rgba(211, 211, 211, 0.85);
+    padding: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+.icon-panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(211, 211, 211, 0.85);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000,
+        0px 1px 0 #000,
+        0px -1px 0 #000,
+        -1px 0px 0 #000,
+        1px 0px 0 #000,
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000,
+        0px 2px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000,
+        1px 2px 0 #000,
+        -1px 2px 0 #000,
+        1px -2px 0 #000,
+        -1px -2px 0 #000,
+        2px 1px 0 #000,
+        -2px 1px 0 #000,
+        2px -1px 0 #000,
+        -2px -1px 0 #000;
+}
+
+.icon {
+    padding: 10px;
+    display: none;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.border {
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgba(0, 46, 94, .3);
+}
+
+.icon img {
+    height: 40px;
+    width: 40px;
+    -webkit-filter: grayscale(100%);
+    padding: 20px;
+}
+
+#settings {
+    position: absolute;
+    padding: 10px;
+    bottom: 5px;
+    right: 5px;
+    height: 25px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+}
+
+#settings:hover {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.icon .desc {
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
